@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f9fd;
+  padding: 20px;
+}
+
+.resume {
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  background-color: #a1a2ac;
+  padding: 10px;
+}
+
+.profile-img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-img img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f0f7ff;
+  background: #3d3a3a;
+  padding: 6px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-info,
+.skills,
+.languages,
+.interests {
+  margin-bottom: 40px;
+}
+.btn {
+  width: 80px;
+  height: 35px;
+  background: #333;
+  color: white;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.hide {
+  display: none;
+}
+#icons {
+  margin: 6px;
+}
+.contact-info p,
+.languages p,
+.skills p {
+  margin: 5px 0;
+}
+
+.right-section {
+  padding: 20px;
+}
+
+.name {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #6f707a;
+  width: 230px;
+  height: 45px;
+  padding-top: 1px;
+}
+
+.role {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.content-section {
+  margin-bottom: 20px;
+}
+
+.content-section h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.content-section p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.about-h {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #6f707a;
+  width: 140px;
+  height: 38px;
+  padding-top: 2px;
+}
+.edu-h {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #6f707a;
+  width: 140px;
+  height: 38px;
+  padding-top: 2px;
+}
+.education-section {
+  margin-bottom: 20px;
+}
+
+.education-section h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.education-section p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul li {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+ul li:before {
+  content: "\2022";
+  color: #0056b3;
+  font-weight: bold;
+  position: absolute;
+  left: -15px;
+}
